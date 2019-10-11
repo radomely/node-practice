@@ -25,6 +25,7 @@ fs.open("domofile.txt", "w+", function(err, fd) {
       console.log(bytes);
       console.log(buff.slice(0, bytes).toString());
     });
+
     fs.close(fd, function(err) {
       if (err) throw err;
       console.log("File closed!");
