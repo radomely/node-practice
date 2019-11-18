@@ -20,3 +20,4 @@ const objPath = {
   name: "004.Path"
 };
 console.log(path.format(objPath));
+``;
